@@ -9,12 +9,12 @@ public class CalculadoraResta {
         Scanner entrada = new Scanner(System.in);
 
         System.out.print("Ingrese el primer número: ");
-        double num1 = entrada.nextDouble();
+        int num1 = entrada.nextInt();
 
         System.out.print("Ingrese el segundo número: ");
-        double num2 = entrada.nextDouble();
+        int num2 = entrada.nextInt();
 
-        double resultado = num1 - num2;
+        int resultado = num1 - num2;
 
         System.out.println("El resultado de la resta es: " + resultado);
 
